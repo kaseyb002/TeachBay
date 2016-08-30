@@ -13,6 +13,10 @@
 		0359E0E21D7649D200AE2862 /* TeachBayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359E0E11D7649D200AE2862 /* TeachBayTests.swift */; };
 		0359E0ED1D7649D200AE2862 /* TeachBayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359E0EC1D7649D200AE2862 /* TeachBayUITests.swift */; };
 		0359E0FD1D764A1A00AE2862 /* TeachersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359E0FC1D764A1A00AE2862 /* TeachersVC.swift */; };
+		0359E0FF1D764B1000AE2862 /* TeachersVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0359E0FE1D764B1000AE2862 /* TeachersVC.storyboard */; };
+		0359E1011D764BDF00AE2862 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359E1001D764BDF00AE2862 /* Teacher.swift */; };
+		0359E1031D764C2100AE2862 /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359E1021D764C2100AE2862 /* Seat.swift */; };
+		0359E1051D764C5E00AE2862 /* Bidder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359E1041D764C5E00AE2862 /* Bidder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		0359E0EC1D7649D200AE2862 /* TeachBayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachBayUITests.swift; sourceTree = "<group>"; };
 		0359E0EE1D7649D200AE2862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0359E0FC1D764A1A00AE2862 /* TeachersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachersVC.swift; sourceTree = "<group>"; };
+		0359E0FE1D764B1000AE2862 /* TeachersVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TeachersVC.storyboard; sourceTree = "<group>"; };
+		0359E1001D764BDF00AE2862 /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		0359E1021D764C2100AE2862 /* Seat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		0359E1041D764C5E00AE2862 /* Bidder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bidder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				0359E0CC1D7649D200AE2862 /* AppDelegate.swift */,
 				0359E0FC1D764A1A00AE2862 /* TeachersVC.swift */,
+				0359E0FE1D764B1000AE2862 /* TeachersVC.storyboard */,
+				0359E1001D764BDF00AE2862 /* Teacher.swift */,
+				0359E1021D764C2100AE2862 /* Seat.swift */,
+				0359E1041D764C5E00AE2862 /* Bidder.swift */,
 				0359E0D31D7649D200AE2862 /* Assets.xcassets */,
 				0359E0D51D7649D200AE2862 /* LaunchScreen.storyboard */,
 				0359E0D81D7649D200AE2862 /* Info.plist */,
@@ -226,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0359E0FF1D764B1000AE2862 /* TeachersVC.storyboard in Resources */,
 				0359E0D71D7649D200AE2862 /* LaunchScreen.storyboard in Resources */,
 				0359E0D41D7649D200AE2862 /* Assets.xcassets in Resources */,
 			);
@@ -252,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0359E1011D764BDF00AE2862 /* Teacher.swift in Sources */,
 				0359E0CD1D7649D200AE2862 /* AppDelegate.swift in Sources */,
+				0359E1031D764C2100AE2862 /* Seat.swift in Sources */,
 				0359E0FD1D764A1A00AE2862 /* TeachersVC.swift in Sources */,
+				0359E1051D764C5E00AE2862 /* Bidder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
